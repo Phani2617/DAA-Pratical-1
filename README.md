@@ -21,7 +21,7 @@ Conclusion:
 Linear Search and Binary Search are two fundamental searching techniques used to locate an element in a collection. Linear Search is simple to implement and works on both sorted and unsorted data, but its performance decreases as the size of the dataset grows because it checks elements one by one. In contrast, Binary Search is much faster for large datasets, as it repeatedly divides the search space in half, but it requires the data to be sorted before searching. Therefore, Linear Search is suitable for small or unsorted datasets, while Binary Search is the preferred choice for large, sorted datasets due to its higher efficiency and lower search time. Together, these algorithms demonstrate the importance of selecting an appropriate searching technique based on the nature of the data and application requirements.
 
 
-PRACTICAL-3
+PRACTICAL- 3
 
 Summary
 
@@ -41,3 +41,14 @@ The factorial program was implemented using both iterative and recursive methods
  Conclusion:
 
 Both iterative and recursive methods successfully calculate the factorial of a given number. Both methods have O(n) time complexity, but their space requirements are different. The iterative method has O(1) space complexity, whereas the recursive method has O(n) space complexity because of the function call stack. Therefore, the iterative method is more memory-efficient, while the recursive method provides a simpler representation of the factorial logic.
+
+
+PRACTICAL-7
+
+Summary :
+
+The making change problem was implemented using the Dynamic Programming technique. The program calculates the minimum number of coins required to make a given amount. Dynamic Programming stores previously calculated results in a table, which avoids repeatedly solving the same subproblems. The algorithm has O(n × A) time complexity and O(A) space complexity.
+
+ Conclusion:
+
+The Dynamic Programming approach provides an efficient solution to the making change problem by storing and reusing previously calculated results. It successfully finds the minimum number of coins required for the given amount. Compared with a simple recursive approach, Dynamic Programming reduces repeated calculations and provides better performance for larger amounts.
