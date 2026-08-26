@@ -21,6 +21,7 @@ Conclusion:
 Linear Search and Binary Search are two fundamental searching techniques used to locate an element in a collection. Linear Search is simple to implement and works on both sorted and unsorted data, but its performance decreases as the size of the dataset grows because it checks elements one by one. In contrast, Binary Search is much faster for large datasets, as it repeatedly divides the search space in half, but it requires the data to be sorted before searching. Therefore, Linear Search is suitable for small or unsorted datasets, while Binary Search is the preferred choice for large, sorted datasets due to its higher efficiency and lower search time. Together, these algorithms demonstrate the importance of selecting an appropriate searching technique based on the nature of the data and application requirements.
 
 
+
 PRACTICAL- 3
 
 Summary
@@ -43,12 +44,28 @@ The factorial program was implemented using both iterative and recursive methods
 Both iterative and recursive methods successfully calculate the factorial of a given number. Both methods have O(n) time complexity, but their space requirements are different. The iterative method has O(1) space complexity, whereas the recursive method has O(n) space complexity because of the function call stack. Therefore, the iterative method is more memory-efficient, while the recursive method provides a simpler representation of the factorial logic.
 
 
+
 PRACTICAL-7
 
 Summary :
 
 The making change problem was implemented using the Dynamic Programming technique. The program calculates the minimum number of coins required to make a given amount. Dynamic Programming stores previously calculated results in a table, which avoids repeatedly solving the same subproblems. The algorithm has O(n × A) time complexity and O(A) space complexity.
 
- Conclusion:
+ Conclusion :
 
 The Dynamic Programming approach provides an efficient solution to the making change problem by storing and reusing previously calculated results. It successfully finds the minimum number of coins required for the given amount. Compared with a simple recursive approach, Dynamic Programming reduces repeated calculations and provides better performance for larger amounts.
+
+
+
+
+PRACTICAL-5
+
+Summary :
+
+The 0/1 Knapsack Problem was implemented using the Dynamic Programming technique. The program determines the maximum value that can be placed in a knapsack without exceeding its given capacity. Each item can either be selected or not selected. Dynamic Programming stores the results of smaller subproblems in a table, avoiding repeated calculations and making the solution efficient.
+
+Conclusion :
+
+The Dynamic Programming approach provides an efficient solution to the 0/1 Knapsack Problem. It finds the maximum possible value while keeping the total weight within the specified capacity. The algorithm has O(n × W) time complexity and O(n × W) space complexity. Therefore, Dynamic Programming is a suitable technique for solving the Knapsack Problem when the number of items and capacity are manageable.
+
+
