@@ -81,3 +81,14 @@ Conclusion :
 Dynamic Programming provides an efficient solution for the Matrix Chain Multiplication problem. It determines the optimal order of matrix multiplication while minimizing the number of scalar multiplications. The algorithm has a time complexity of O(n³) and a space complexity of O(n²). Thus, it is useful for finding an efficient multiplication order when working with a large sequence of matrices.
 
 
+
+PRACTICAL-8
+
+
+Summary :
+
+In this practical, a Graph data structure was implemented in Python using an adjacency list. Vertices and edges were added to represent the connections between different nodes. Two important graph searching techniques, Breadth First Search (BFS) and Depth First Search (DFS), were implemented and executed on the graph. BFS uses a queue to visit vertices level by level, whereas DFS uses recursion (or a stack) to explore a path deeply before backtracking. The practical helped in understanding graph representation, traversal techniques, visited-node tracking, and the working of searching algorithms.
+
+Conclusion :
+
+Thus, the Graph, BFS, and DFS algorithms were successfully implemented in Python. The output demonstrated that both BFS and DFS can systematically visit all reachable vertices of a graph. BFS is useful for level-wise traversal and finding the shortest path in an unweighted graph, while DFS is useful for deep exploration, connectivity checking, and graph-based problem solving. This practical provides a fundamental understanding of graph traversal, which is widely used in Data Structures, Artificial Intelligence, Networking, and other computer science applications.
