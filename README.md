@@ -92,3 +92,17 @@ In this practical, a Graph data structure was implemented in Python using an adj
 Conclusion :
 
 Thus, the Graph, BFS, and DFS algorithms were successfully implemented in Python. The output demonstrated that both BFS and DFS can systematically visit all reachable vertices of a graph. BFS is useful for level-wise traversal and finding the shortest path in an unweighted graph, while DFS is useful for deep exploration, connectivity checking, and graph-based problem solving. This practical provides a fundamental understanding of graph traversal, which is widely used in Data Structures, Artificial Intelligence, Networking, and other computer science applications.
+
+
+
+PRACTICAL-9
+
+
+Summary : 
+
+
+In this practical, we implemented Prim’s algorithm using Python to find the Minimum Spanning Tree (MST) of a weighted, undirected graph. The algorithm selects the minimum-weight edge at each step and connects all vertices without forming a cycle.
+
+
+Conclusion :
+Thus, Prim’s algorithm was successfully implemented in Python. The Minimum Spanning Tree was obtained with a minimum total cost of 16, connecting all vertices with the minimum possible edge weight.
