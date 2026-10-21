@@ -119,3 +119,15 @@ In this practical, we implemented Kruskal’s algorithm using Python to find the
 Conclusion : 
 
 Thus, Kruskal’s algorithm was successfully implemented in Python. The Minimum Spanning Tree was obtained with a minimum total cost of 16, connecting all five vertices using four edges without forming any cycles.
+
+
+
+PRACTICAL-11
+
+Summary :
+
+In this practical, we implemented the Floyd–Warshall algorithm using Python to find the shortest distances between all pairs of vertices in a weighted graph. The algorithm updates the distance matrix by considering each vertex as an intermediate vertex.
+
+Conclusion : 
+
+Thus, the Floyd–Warshall algorithm was successfully implemented in Python. The shortest distances between all pairs of vertices were calculated by comparing direct paths with paths through intermediate vertices.
