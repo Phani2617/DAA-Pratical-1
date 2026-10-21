@@ -106,3 +106,16 @@ In this practical, we implemented Prim’s algorithm using Python to find the Mi
 
 Conclusion :
 Thus, Prim’s algorithm was successfully implemented in Python. The Minimum Spanning Tree was obtained with a minimum total cost of 16, connecting all vertices with the minimum possible edge weight.
+
+
+
+PRACTICAL-10
+
+
+Summary :
+
+In this practical, we implemented Kruskal’s algorithm using Python to find the Minimum Spanning Tree (MST) of a weighted, undirected graph. The algorithm selects edges in increasing order of weight while avoiding cycles.
+
+Conclusion : 
+
+Thus, Kruskal’s algorithm was successfully implemented in Python. The Minimum Spanning Tree was obtained with a minimum total cost of 16, connecting all five vertices using four edges without forming any cycles.
