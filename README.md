@@ -131,3 +131,15 @@ In this practical, we implemented the Floyd–Warshall algorithm using Python to
 Conclusion : 
 
 Thus, the Floyd–Warshall algorithm was successfully implemented in Python. The shortest distances between all pairs of vertices were calculated by comparing direct paths with paths through intermediate vertices.
+
+
+
+PRACTICAL-12
+
+Summary :
+
+In this practical, we implemented the Travelling Salesman Problem (TSP) using Python. The program generates possible routes, calculates the total travel cost of each route, and identifies the route with the minimum cost.
+
+Conclusion :
+
+Thus, the Travelling Salesman Problem was successfully implemented in Python using the brute-force approach. The optimal tour was found with a minimum travel cost of 80, visiting all cities exactly once and returning to the starting city.
